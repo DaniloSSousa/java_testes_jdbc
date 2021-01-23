@@ -13,7 +13,7 @@ public class ContaDao {
 		
 		try {
 			this.cnn = DriverManager.getConnection(
-			  "jdbc:mysql://localhost/alura_jdbc?useTimezone=true&serverTimezone=UTC", "root", "414925"
+			  "jdbc:mysql://localhost/alura_jdbc?useTimezone=true&serverTimezone=UTC", "root", ""
 			);
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
